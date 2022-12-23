@@ -1,17 +1,18 @@
 [package]
 name = "nash"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Aster <192607617@qq.com>"]
-description = "..."
-repository = "https://github.com/oovm/sub_projects"
-documentation = "https://docs.rs/sub_projects"
+description = "Solving Nash Equilibrium Mixed Strategies"
+repository = "https://github.com/oovm/NashEquilibrium"
+documentation = "https://docs.rs/nash"
 readme = "Readme.md"
 license = "MPL-2.0"
 edition = "2021"
 
 [dependencies]
 num = "0.4.0"
-ndarray = "0.15.6"
+good_lp = "1.3.3"
+#ndarray = "0.15.6"
 
 [dev-dependencies]
 
